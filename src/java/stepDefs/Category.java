@@ -67,15 +67,12 @@ public enum Category {
     public String getValue() { return m_value; }
 
     Category(String categ) {
-//        categ = categ.substring(0, 1).toUpperCase() + categ.substring(1).toLowerCase();
         m_value = categ;
         m_id = -1;
     }
 
     Category(String categ, int id) {
-//        categ = categ.substring(0, 1).toUpperCase() + categ.substring(1).toLowerCase();
         m_value = categ;
         m_id = id;
     }
-    // TODO id+- and value!
 }

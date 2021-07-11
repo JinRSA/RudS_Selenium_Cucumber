@@ -14,7 +14,6 @@ public enum SortBy {
     public int getId() { return m_id; }
 
     SortBy(String by, int id) {
-//        by = by.substring(0, 1).toUpperCase() + by.substring(1).toLowerCase();
         m_by = by;
         m_id = id;
     }
