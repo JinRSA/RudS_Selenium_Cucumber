@@ -94,7 +94,7 @@ public class StepDefs {
 
     @И("активирован чекбокс только с фотографией")
     public void активированЧекбоксТолькоСФотографией() {
-        By by = By.xpath("//input[@data-marker=\"delivery-filter/input\"]");
+        By by = By.xpath("//input[@data-marker=\"search-form/with-images\"]");
         WebElement checkBox = m_driver.findElement(by);
         if (!checkBox.isSelected())
             checkBox.sendKeys(Keys.SPACE);
